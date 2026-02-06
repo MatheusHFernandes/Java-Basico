@@ -14,7 +14,7 @@ public class RepitaOptionPane {
         
           s += n;
         } while (n != 0);
-        JOptionPane.showMessageDialog(null, "<>htmlResultado final <hr><br>Somatorio vale " + s + "</html>");
+        JOptionPane.showMessageDialog(null, "<html>Resultado final <hr><br>Somatorio vale " + s + "</html>");
         
     }
 }
