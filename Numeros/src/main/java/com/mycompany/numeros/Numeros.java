@@ -10,13 +10,20 @@ public class Numeros {
         String resp;
         
         Scanner t = new Scanner (System.in);
+        
         do {
+            
             System.out.println("Digite um número: ");
+            
             n = t.nextInt();
             s += n;
+            
             System.out.println("Quer continuar?");
             resp = t.next();
+            
         } while (resp.equals("s") || resp.equals("S"));
+        
         System.out.println("A soma de todos os valores é: " + s);
+        
     }
 }
